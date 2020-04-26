@@ -17,7 +17,8 @@
 	<properties>
 		<java.version>11</java.version>
 		<vavr.version>0.10.2</vavr.version>
-	</properties>
+                <jvm.options>--enable-preview</jvm.options>
+        </properties>
 
 	<dependencies>
 		<dependency>
